@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import logging
 
 # Read the excel file
 df = pd.read_excel("Line Production September 2023.xlsx")
@@ -35,7 +36,6 @@ attributes_prod = [] # attributes for each row in Excel file
 tasks_list = [] # list for products that each line has to process
 
 for task_row in range(len(transposed_x)):
-    tasks = sum(transposed_x[task_row])
     tasks_list.append([line_headers[task_row], (np.where(transposed_x[task_row] == 1)[0])])
     
 for task_index in range(len(tasks_list)):
@@ -43,6 +43,7 @@ for task_index in range(len(tasks_list)):
     deadline_penalty = [] # deadline and penalty for each product
     task_in_line = tasks_list[task_index][0]
 
+    # Sort the tasks for each line based on the EDD method
     for product_type in list(tasks_list[task_index][1]):
         deadline_penalty.append([deadlines[product_type], penalty_costs[product_type], product_type])
     deadline_penalty = sorted(deadline_penalty)
