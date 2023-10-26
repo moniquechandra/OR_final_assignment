@@ -1,0 +1,14 @@
+INFO:root:Item added: (1.6, 3), Knapsack value: 3, Knapsack weight: 1.6
+INFO:root:Item added: (3.9, 7), Knapsack value: 10, Knapsack weight: 5.5
+INFO:root:Item added: (1.8, 3), Knapsack value: 13, Knapsack weight: 7.3
+INFO:root:Item added: (4.3, 7), Knapsack value: 20, Knapsack weight: 11.6
+INFO:root:Item (14.5, 20) could not be added
+INFO:root:Item (4.75, 5) could not be added
+INFO:root:Item (5.5, 5) could not be added
+INFO:root:Item (6.5, 5) could not be added
+INFO:root:Item added: (1.6, 1), Knapsack value: 21, Knapsack weight: 13.2
+INFO:root:Item added: (1.6, 1), Knapsack value: 22, Knapsack weight: 14.799999999999999
+INFO:root:Item (2.1, 1) could not be added
+INFO:root:Item (2.9, 1) could not be added
+INFO:root:Item (3.3, 1) could not be added
+INFO:root:Item (4.5, 1) could not be added
