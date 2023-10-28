@@ -1,1 +1,64 @@
 INFO:root:Assigned product = 0 | Production line = 6
+INFO:root:Assigned product = 1 | Production line = 5
+INFO:root:Assigned product = 2 | Production line = 4
+INFO:root:Assigned product = 3 | Production line = 3
+INFO:root:Assigned product = 4 | Production line = 5
+INFO:root:Assigned product = 5 | Production line = 0
+INFO:root:Assigned product = 6 | Production line = 1
+INFO:root:Assigned product = 7 | Production line = 3
+INFO:root:Assigned product = 8 | Production line = 0
+INFO:root:Assigned product = 9 | Production line = 1
+INFO:root:Assigned product = 10 | Production line = 5
+INFO:root:Assigned product = 11 | Production line = 6
+INFO:root:Assigned product = 12 | Production line = 2
+INFO:root:Assigned product = 13 | Production line = 5
+INFO:root:Assigned product = 14 | Production line = 1
+INFO:root:Assigned product = 15 | Production line = 1
+INFO:root:Assigned product = 16 | Production line = 6
+INFO:root:Assigned product = 17 | Production line = 4
+INFO:root:Assigned product = 18 | Production line = 5
+INFO:root:Assigned product = 19 | Production line = 5
+INFO:root:Assigned product = 20 | Production line = 4
+INFO:root:Assigned product = 21 | Production line = 6
+INFO:root:Assigned product = 22 | Production line = 5
+INFO:root:Assigned product = 23 | Production line = 0
+INFO:root:Assigned product = 24 | Production line = 2
+INFO:root:Assigned product = 25 | Production line = 0
+INFO:root:Assigned product = 26 | Production line = 1
+INFO:root:
+Time complexity of the algorithm = 0.025530099868774414 seconds
+INFO:root:
+Objective value: 6096
+INFO:root:
+Time complexity of the scheduling: 0.07138252258300781 seconds
+INFO:root:Assigned product = 0 | Production line = 6
+INFO:root:Assigned product = 1 | Production line = 5
+INFO:root:Assigned product = 2 | Production line = 4
+INFO:root:Assigned product = 3 | Production line = 3
+INFO:root:Assigned product = 4 | Production line = 5
+INFO:root:Assigned product = 5 | Production line = 0
+INFO:root:Assigned product = 6 | Production line = 1
+INFO:root:Assigned product = 7 | Production line = 3
+INFO:root:Assigned product = 8 | Production line = 0
+INFO:root:Assigned product = 9 | Production line = 1
+INFO:root:Assigned product = 10 | Production line = 5
+INFO:root:Assigned product = 11 | Production line = 6
+INFO:root:Assigned product = 12 | Production line = 2
+INFO:root:Assigned product = 13 | Production line = 5
+INFO:root:Assigned product = 14 | Production line = 1
+INFO:root:Assigned product = 15 | Production line = 1
+INFO:root:Assigned product = 16 | Production line = 6
+INFO:root:Assigned product = 17 | Production line = 4
+INFO:root:Assigned product = 18 | Production line = 5
+INFO:root:Assigned product = 19 | Production line = 5
+INFO:root:Assigned product = 20 | Production line = 4
+INFO:root:Assigned product = 21 | Production line = 6
+INFO:root:Assigned product = 22 | Production line = 5
+INFO:root:Assigned product = 23 | Production line = 0
+INFO:root:Assigned product = 24 | Production line = 2
+INFO:root:Assigned product = 25 | Production line = 0
+INFO:root:Assigned product = 26 | Production line = 1
+INFO:root:
+Time complexity of the algorithm = 0.023534059524536133 seconds
+INFO:root:
+Objective value: 6096
