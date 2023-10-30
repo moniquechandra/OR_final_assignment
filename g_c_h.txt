@@ -1,64 +1,46 @@
-INFO:root:Assigned product = 0 | Production line = 6
-INFO:root:Assigned product = 1 | Production line = 5
-INFO:root:Assigned product = 2 | Production line = 4
-INFO:root:Assigned product = 3 | Production line = 3
-INFO:root:Assigned product = 4 | Production line = 5
-INFO:root:Assigned product = 5 | Production line = 0
-INFO:root:Assigned product = 6 | Production line = 1
-INFO:root:Assigned product = 7 | Production line = 3
-INFO:root:Assigned product = 8 | Production line = 0
-INFO:root:Assigned product = 9 | Production line = 1
-INFO:root:Assigned product = 10 | Production line = 5
-INFO:root:Assigned product = 11 | Production line = 6
-INFO:root:Assigned product = 12 | Production line = 2
-INFO:root:Assigned product = 13 | Production line = 5
-INFO:root:Assigned product = 14 | Production line = 1
-INFO:root:Assigned product = 15 | Production line = 1
-INFO:root:Assigned product = 16 | Production line = 6
-INFO:root:Assigned product = 17 | Production line = 4
-INFO:root:Assigned product = 18 | Production line = 5
-INFO:root:Assigned product = 19 | Production line = 5
-INFO:root:Assigned product = 20 | Production line = 4
-INFO:root:Assigned product = 21 | Production line = 6
-INFO:root:Assigned product = 22 | Production line = 5
-INFO:root:Assigned product = 23 | Production line = 0
-INFO:root:Assigned product = 24 | Production line = 2
-INFO:root:Assigned product = 25 | Production line = 0
-INFO:root:Assigned product = 26 | Production line = 1
+INFO:root:Production line = L1 | Assigned product = P1
+INFO:root:Production line = L1 | Assigned product = P2
+INFO:root:Production line = L1 | Assigned product = P3
+INFO:root:Production line = L1 | Assigned product = P4
+INFO:root:Production line = L1 | Assigned product = P5
+INFO:root:Production line = L1 | Assigned product = P6
+INFO:root:Production line = L1 | Assigned product = P7
+INFO:root:Production line = L1 | Assigned product = P8
+INFO:root:Production line = L1 | Assigned product = P9
+INFO:root:Production line = L1 | Assigned product = P10
+INFO:root:Production line = L1 | Assigned product = P11
+INFO:root:Production line = L1 | Assigned product = P12
+INFO:root:Production line = L1 | Assigned product = P13
+INFO:root:Production line = L1 | Assigned product = P14
+INFO:root:Production line = L1 | Assigned product = P15
+INFO:root:Production line = L1 | Assigned product = P16
+INFO:root:Production line = L1 | Assigned product = P17
+INFO:root:Production line = L1 | Assigned product = P18
+INFO:root:Production line = L1 | Assigned product = P19
+INFO:root:Production line = L1 | Assigned product = P20
+INFO:root:Production line = L1 | Assigned product = P21
+INFO:root:Production line = L1 | Assigned product = P22
+INFO:root:Production line = L1 | Assigned product = P23
+INFO:root:Production line = L1 | Assigned product = P24
+INFO:root:Production line = L1 | Assigned product = P25
+INFO:root:Production line = L1 | Assigned product = P26
+INFO:root:Production line = L1 | Assigned product = P27
+INFO:root:Production line = L1 | Assigned product = P28
+INFO:root:Production line = L1 | Assigned product = P29
+INFO:root:Production line = L1 | Assigned product = P30
+INFO:root:Production line = L1 | Assigned product = P31
+INFO:root:Production line = L1 | Assigned product = P32
+INFO:root:Production line = L1 | Assigned product = P33
+INFO:root:Production line = L1 | Assigned product = P34
+INFO:root:Production line = L1 | Assigned product = P35
+INFO:root:Production line = L1 | Assigned product = P36
+INFO:root:Production line = L1 | Assigned product = P37
+INFO:root:Production line = L1 | Assigned product = P38
+INFO:root:Production line = L1 | Assigned product = P39
+INFO:root:Production line = L1 | Assigned product = P40
 INFO:root:
-Time complexity of the algorithm = 0.025530099868774414 seconds
+Time complexity of the algorithm = 0.03312802314758301 seconds
 INFO:root:
-Objective value: 6096
+Time complexity of the scheduling: 0.06598997116088867 seconds
 INFO:root:
-Time complexity of the scheduling: 0.07138252258300781 seconds
-INFO:root:Assigned product = 0 | Production line = 6
-INFO:root:Assigned product = 1 | Production line = 5
-INFO:root:Assigned product = 2 | Production line = 4
-INFO:root:Assigned product = 3 | Production line = 3
-INFO:root:Assigned product = 4 | Production line = 5
-INFO:root:Assigned product = 5 | Production line = 0
-INFO:root:Assigned product = 6 | Production line = 1
-INFO:root:Assigned product = 7 | Production line = 3
-INFO:root:Assigned product = 8 | Production line = 0
-INFO:root:Assigned product = 9 | Production line = 1
-INFO:root:Assigned product = 10 | Production line = 5
-INFO:root:Assigned product = 11 | Production line = 6
-INFO:root:Assigned product = 12 | Production line = 2
-INFO:root:Assigned product = 13 | Production line = 5
-INFO:root:Assigned product = 14 | Production line = 1
-INFO:root:Assigned product = 15 | Production line = 1
-INFO:root:Assigned product = 16 | Production line = 6
-INFO:root:Assigned product = 17 | Production line = 4
-INFO:root:Assigned product = 18 | Production line = 5
-INFO:root:Assigned product = 19 | Production line = 5
-INFO:root:Assigned product = 20 | Production line = 4
-INFO:root:Assigned product = 21 | Production line = 6
-INFO:root:Assigned product = 22 | Production line = 5
-INFO:root:Assigned product = 23 | Production line = 0
-INFO:root:Assigned product = 24 | Production line = 2
-INFO:root:Assigned product = 25 | Production line = 0
-INFO:root:Assigned product = 26 | Production line = 1
-INFO:root:
-Time complexity of the algorithm = 0.023534059524536133 seconds
-INFO:root:
-Objective value: 6096
+Objective value: 172601
