@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 
 # Consists of the applied dataset in Excel format and the parameters for the mathematical model.
 

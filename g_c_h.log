@@ -39,9 +39,9 @@ INFO:root:Production line = L1 | Assigned product = P38
 INFO:root:Production line = L1 | Assigned product = P39
 INFO:root:Production line = L1 | Assigned product = P40
 INFO:root:
-Time complexity of the algorithm for 40 iterations = 0.0016817152500152588 seconds
+Time complexity of the algorithm for 40 iterations = 0.001953125 seconds
 INFO:root:
-Computation time of the scheduling: 0.12183499336242676 seconds
+Computation time of the scheduling: 0.14083147048950195 seconds
 INFO:root:
 Objective value: 172601
 INFO:root:Production line = L1 | Assigned product = P1
@@ -85,7 +85,7 @@ INFO:root:Production line = L1 | Assigned product = P38
 INFO:root:Production line = L1 | Assigned product = P39
 INFO:root:Production line = L1 | Assigned product = P40
 INFO:root:
-Time complexity of the algorithm for 40 iterations = 0.001427227258682251 seconds
+Time complexity of the algorithm for 40 iterations = 0.0022437453269958498 seconds
 INFO:root:Production line = L1 | Assigned product = P1
 INFO:root:Production line = L1 | Assigned product = P2
 INFO:root:Production line = L1 | Assigned product = P3
@@ -127,8 +127,10 @@ INFO:root:Production line = L1 | Assigned product = P38
 INFO:root:Production line = L1 | Assigned product = P39
 INFO:root:Production line = L1 | Assigned product = P40
 INFO:root:
-Time complexity of the algorithm for 40 iterations = 0.001268380880355835 seconds
+Time complexity of the algorithm for 40 iterations = 0.0016536951065063477 seconds
 INFO:root:
-Computation time of the scheduling: 0.08891630172729492 seconds
+Computation time of the scheduling: 0.11245942115783691 seconds
 INFO:root:
 Objective value: 172601
+INFO:root:
+Time complexity of the algorithm for 40 iterations = 0.04938040971755982 seconds
