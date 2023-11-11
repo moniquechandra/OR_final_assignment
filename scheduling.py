@@ -1,9 +1,11 @@
 from mathematical_model import MathModel
 import numpy as np
+import logging
 
 model = MathModel()
 
 class ProductAttributes:
+
     # Define the objective value
     total_penalty = 0
 

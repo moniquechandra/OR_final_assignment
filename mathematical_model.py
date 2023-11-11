@@ -3,6 +3,7 @@ import pandas as pd
 # Consists of the applied dataset in Excel format and the parameters for the mathematical model.
 
 class MathModel:
+    
     # Read the excel file
     df = pd.read_excel("Line Production December 2023.xlsx")
 

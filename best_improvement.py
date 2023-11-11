@@ -4,9 +4,12 @@ import logging
 import time
 from mathematical_model import MathModel
 from scheduling import ProductAttributes
-from greedy_constructive_heuristics import GreedyConstructiveHeuristics, greedy_constructive_heuristics
+from greedy_constructive_heuristics import GreedyConstructiveHeuristics, objective_value
 
-logging.basicConfig(filename='discrete_improving.txt', level=logging.INFO, filemode='w')
+
+# Initiate a logger to log necessary information
+log_format = "%(asctime)s - %(module)s - %(message)s"
+logging.basicConfig(filename='log_file.log', level=logging.INFO, format=log_format, filemode='w')
 
 # Define the imported classes
 gch = GreedyConstructiveHeuristics()
@@ -15,13 +18,14 @@ att = ProductAttributes()
 
 # Choose any starting feasible solution x
 # In this case, I use the feasible solution from the first solution method
-initial_solution = gch.greedy_algorithm()
+initial_solution = gch.decision_variable()
+# aku masi bingung gimana supaya logging nya ga dua kali :(
 
 class DiscreteImprovingSearch:
 
-    # Set the initial total penalty cost as the reference for improvement
-    # If the total penalty becomes smaller than the initial total penalty, the model has improved!
-    total_penalty = greedy_constructive_heuristics()
+    # Set the initial objective value as the reference for improvement
+    # If the penalty of the current algorithm becomes smaller than the initial total penalty, the model has improved!
+    total_penalty = objective_value()
 
     # Functions for finding first improvement in the Discrete Improving Search algorithm
 
@@ -31,12 +35,15 @@ class DiscreteImprovingSearch:
 
         # Make a copy of the initial solution to avoid modifying it directly
         improving_solution = initial_solution.copy()
+        best_solution = initial_solution.copy
 
         for prod_index in range(model.num_prod - 1):        
             for line_index in range(model.num_prod_lines - 1):
                 improved = True
                 while improved:
                     improved = False
+                
+                    # Apply 2-opt to find the better solution in the neighbourhood
                     where_one = np.where(improving_solution[prod_index] == 1)[0][0]
                     improving_solution[prod_index][where_one] = 0
                     improving_solution[prod_index][line_index + 1] = 1
@@ -44,14 +51,14 @@ class DiscreteImprovingSearch:
                     # Calculate the penalty of the current solution
                     attributes = att.get_product_attributes(improving_solution)
                     current_penalty = att.calculate_total_penalty(attributes)
-             
+                
                 # Check if the current solution is better
                 if current_penalty < self.total_penalty:
                     self.total_penalty = current_penalty
                     best_solution = improving_solution.copy()
                 else:
                     pass
-            
+        
             # If there are no better solution in the neighbourhood, the last improving solution is the best solution.
             improving_solution = best_solution.copy()
 
@@ -77,18 +84,15 @@ class DiscreteImprovingSearch:
 def discrete_improving_search():
     gch = DiscreteImprovingSearch()
     start_schedule = time.time()
-    gch.scheduling_constructive_heuristics().to_excel("d_i_s_schedule.xlsx",index=False)
+    gch.scheduling_discrete_improving().to_excel("d_i_s_schedule.xlsx",index=False)
     end_schedule = time.time()
     elapsed_time = end_schedule - start_schedule
     logging.info("\nComputation time of the scheduling: %s seconds", elapsed_time)
 
     # Log the final objective value of the current solution and print it as an output
-    logging.info(f"\nObjective value: {att.total_penalty}")
-    print(f"Objective value: {att.total_penalty}")
+    logging.info(f"\nImproved objective value: {att.total_penalty}")
+    print(f"Improved objective value: {att.total_penalty}")
 
     return att.total_penalty
 
-greedy_constructive_heuristics()
-
-ss = DiscreteImproving()
-ss.best_improvement()
+discrete_improving_search()
