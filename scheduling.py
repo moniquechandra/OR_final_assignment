@@ -1,6 +1,5 @@
-from mathematical_model import MathModel
+from design.mathematical_model import MathModel
 import numpy as np
-import logging
 
 model = MathModel()
 
@@ -10,8 +9,12 @@ class ProductAttributes:
     total_penalty = 0
 
     def get_total_penalty(self, total_penalty):
-        # Function for parametrization  
+        # Assign the derived total penalty to the class  
         self.total_penalty = total_penalty
+
+    def get_sorted_products(self, sorted_products):
+        # Assign the derived sorted products to the class  
+        self.sorted_products = sorted_products
 
     def sorted_tasks(self, solution):
         # Schedule products based on the EDD method and littlest damage to the objective value.
@@ -44,11 +47,11 @@ class ProductAttributes:
 
         for line, products in task_list:
             # Derive products from the task list to simplify the iteration process
-            sorted_products = sorted(products, key=lambda product_index: (model.deadlines[product_index], -model.penalty_costs[product_index]))
+            self.sorted_products = sorted(products, key=lambda product_index: (model.deadlines[product_index], -model.penalty_costs[product_index]))
 
             # Define the necessary parameter
             current_time = 0
-            for product in sorted_products:
+            for product in self.sorted_products:
                 product_name = model.df.iloc[product]["Product"]
                 process_time = model.df.iloc[product][line]
                 deadline_prod = model.deadlines[product]
@@ -69,6 +72,7 @@ class ProductAttributes:
         # Update the parameters
         self.total_penalty = self.calculate_total_penalty(attributes_prod)
         self.get_total_penalty(self.total_penalty)
+        self.get_sorted_products(self.sorted_products)
 
         return attributes_prod
 
