@@ -1,88 +1,88 @@
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - 
-Time complexity of the algorithm for 40 iterations = 0.004035580158233643 seconds
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P1 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P2 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P3 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P4 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P5 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P6 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P7 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P8 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P9 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P10 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P11 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P12 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P13 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P14 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P15 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P16 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P17 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P18 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P19 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P20 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P21 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P22 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P23 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P24 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P25 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P26 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P27 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P28 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P29 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P30 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P31 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P32 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P33 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P34 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P35 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P36 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P37 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P38 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P39 has been assigned to Line L1
-2023-11-12 18:21:23,527 - greedy_constructive_heuristics - Product P40 has been assigned to Line L1
-2023-11-12 18:21:23,678 - greedy_constructive_heuristics - Scheduling time: 0.028130531311035156 seconds
-2023-11-12 18:21:23,778 - greedy_constructive_heuristics - Objective value: 172601
-2023-11-12 18:21:27,977 - best_improvement - 
-Time complexity of the algorithm for 40 iterations = 0.10080426335334777 seconds
-2023-11-12 18:21:38,879 - best_improvement - Product P1 has been reassigned to Line L2
-2023-11-12 18:21:40,247 - best_improvement - Product P2 has been reassigned to Line L3
-2023-11-12 18:21:40,247 - best_improvement - Product P3 has been reassigned to Line L3
-2023-11-12 18:21:40,247 - best_improvement - Product P4 has been reassigned to Line L3
-2023-11-12 18:21:40,249 - best_improvement - Product P5 has been reassigned to Line L4
-2023-11-12 18:21:40,249 - best_improvement - Product P6 has been reassigned to Line L3
-2023-11-12 18:21:40,249 - best_improvement - Product P7 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P8 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P9 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P10 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P11 has been reassigned to Line L3
-2023-11-12 18:21:40,249 - best_improvement - Product P12 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P13 has been reassigned to Line L3
-2023-11-12 18:21:40,249 - best_improvement - Product P14 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P15 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P16 has been reassigned to Line L3
-2023-11-12 18:21:40,249 - best_improvement - Product P17 has been reassigned to Line L5
-2023-11-12 18:21:40,249 - best_improvement - Product P18 has been reassigned to Line L6
-2023-11-12 18:21:40,249 - best_improvement - Product P19 has been reassigned to Line L5
-2023-11-12 18:21:40,249 - best_improvement - Product P20 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P21 has been reassigned to Line L7
-2023-11-12 18:21:40,249 - best_improvement - Product P22 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P23 has been reassigned to Line L2
-2023-11-12 18:21:40,249 - best_improvement - Product P24 has been reassigned to Line L6
-2023-11-12 18:21:40,249 - best_improvement - Product P25 has been reassigned to Line L3
-2023-11-12 18:21:40,249 - best_improvement - Product P26 has been reassigned to Line L3
-2023-11-12 18:21:40,257 - best_improvement - Product P27 has been reassigned to Line L5
-2023-11-12 18:21:40,257 - best_improvement - Product P28 has been reassigned to Line L3
-2023-11-12 18:21:40,257 - best_improvement - Product P29 has been reassigned to Line L7
-2023-11-12 18:21:40,257 - best_improvement - Product P30 has been reassigned to Line L2
-2023-11-12 18:21:40,258 - best_improvement - Product P31 has been reassigned to Line L1
-2023-11-12 18:21:40,258 - best_improvement - Product P32 has been reassigned to Line L1
-2023-11-12 18:21:40,258 - best_improvement - Product P33 has been reassigned to Line L1
-2023-11-12 18:21:40,258 - best_improvement - Product P34 has been reassigned to Line L1
-2023-11-12 18:21:40,258 - best_improvement - Product P35 has been reassigned to Line L1
-2023-11-12 18:21:40,258 - best_improvement - Product P36 has been reassigned to Line L1
-2023-11-12 18:21:40,258 - best_improvement - Product P37 has been reassigned to Line L1
-2023-11-12 18:21:40,258 - best_improvement - Product P38 has been reassigned to Line L1
-2023-11-12 18:21:40,258 - best_improvement - Product P39 has been reassigned to Line L1
-2023-11-12 18:21:40,258 - best_improvement - Product P40 has been reassigned to Line L1
-2023-11-12 18:21:40,299 - best_improvement - Scheduling time: 0.041089773178100586 seconds
-2023-11-12 18:21:40,859 - best_improvement - D.I.S' objective value: 7116
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - 
+Time complexity of the algorithm for 40 iterations = 0.0015195488929748535 seconds
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P1 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P2 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P3 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P4 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P5 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P6 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P7 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P8 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P9 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P10 has been assigned to Line L1
+2023-11-13 03:45:57,447 - greedy_constructive_heuristics - Product P11 has been assigned to Line L1
+2023-11-13 03:45:57,455 - greedy_constructive_heuristics - Product P12 has been assigned to Line L1
+2023-11-13 03:45:57,455 - greedy_constructive_heuristics - Product P13 has been assigned to Line L1
+2023-11-13 03:45:57,455 - greedy_constructive_heuristics - Product P14 has been assigned to Line L1
+2023-11-13 03:45:57,455 - greedy_constructive_heuristics - Product P15 has been assigned to Line L1
+2023-11-13 03:45:57,455 - greedy_constructive_heuristics - Product P16 has been assigned to Line L1
+2023-11-13 03:45:57,455 - greedy_constructive_heuristics - Product P17 has been assigned to Line L1
+2023-11-13 03:45:57,455 - greedy_constructive_heuristics - Product P18 has been assigned to Line L1
+2023-11-13 03:45:57,455 - greedy_constructive_heuristics - Product P19 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P20 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P21 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P22 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P23 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P24 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P25 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P26 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P27 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P28 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P29 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P30 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P31 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P32 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P33 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P34 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P35 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P36 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P37 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P38 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P39 has been assigned to Line L1
+2023-11-13 03:45:57,456 - greedy_constructive_heuristics - Product P40 has been assigned to Line L1
+2023-11-13 03:45:57,524 - greedy_constructive_heuristics - Scheduling time: 0.0040187835693359375 seconds
+2023-11-13 03:45:57,573 - greedy_constructive_heuristics - Objective value: 172601
+2023-11-13 03:45:59,061 - best_improvement - 
+Time complexity of the algorithm for 40 iterations = 0.03603828549385071 seconds
+2023-11-13 03:46:00,989 - best_improvement - Product P1 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P2 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P3 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P4 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P5 has been reassigned to Line L3
+2023-11-13 03:46:00,989 - best_improvement - Product P6 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P7 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P8 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P9 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P10 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P11 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P12 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P13 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P14 has been reassigned to Line L5
+2023-11-13 03:46:00,989 - best_improvement - Product P15 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P16 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P17 has been reassigned to Line L5
+2023-11-13 03:46:00,989 - best_improvement - Product P18 has been reassigned to Line L6
+2023-11-13 03:46:00,989 - best_improvement - Product P19 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P20 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P21 has been reassigned to Line L4
+2023-11-13 03:46:00,989 - best_improvement - Product P22 has been reassigned to Line L5
+2023-11-13 03:46:00,989 - best_improvement - Product P23 has been reassigned to Line L7
+2023-11-13 03:46:00,989 - best_improvement - Product P24 has been reassigned to Line L6
+2023-11-13 03:46:00,989 - best_improvement - Product P25 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P26 has been reassigned to Line L5
+2023-11-13 03:46:00,989 - best_improvement - Product P27 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P28 has been reassigned to Line L2
+2023-11-13 03:46:00,989 - best_improvement - Product P29 has been reassigned to Line L6
+2023-11-13 03:46:00,989 - best_improvement - Product P30 has been reassigned to Line L1
+2023-11-13 03:46:00,989 - best_improvement - Product P31 has been reassigned to Line L1
+2023-11-13 03:46:00,989 - best_improvement - Product P32 has been reassigned to Line L1
+2023-11-13 03:46:00,989 - best_improvement - Product P33 has been reassigned to Line L5
+2023-11-13 03:46:00,989 - best_improvement - Product P34 has been reassigned to Line L7
+2023-11-13 03:46:00,989 - best_improvement - Product P35 has been reassigned to Line L1
+2023-11-13 03:46:00,989 - best_improvement - Product P36 has been reassigned to Line L1
+2023-11-13 03:46:00,989 - best_improvement - Product P37 has been reassigned to Line L1
+2023-11-13 03:46:00,989 - best_improvement - Product P38 has been reassigned to Line L1
+2023-11-13 03:46:00,989 - best_improvement - Product P39 has been reassigned to Line L1
+2023-11-13 03:46:00,989 - best_improvement - Product P40 has been reassigned to Line L1
+2023-11-13 03:46:01,008 - best_improvement - Scheduling time: 0.019602537155151367 seconds
+2023-11-13 03:46:01,068 - best_improvement - D.I.S' objective value: 8750

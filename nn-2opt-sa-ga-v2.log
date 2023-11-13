@@ -1,0 +1,5 @@
+[2023-11-13 01:55:23,303] Random instance with 50 locations
+[2023-11-13 01:55:23,303] Random tour has distance 2701.22; time: 0.00
+[2023-11-13 01:55:25,969] 2-opt tour of type RND has total distance: 592.8862321453431; time: 2.665449
+[2023-11-13 01:55:36,129] 2-opt tour of type SA has total distance: 599.3757383686265; time: 1.693718
+[2023-11-13 01:55:36,129] Simulated annealing tour of type RND has total distance: 599.3757383686265; time: 10.16

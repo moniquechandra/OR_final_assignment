@@ -5,7 +5,7 @@ import logging
 import time
 
 from design.mathematical_model import MathModel
-from scheduling import ProductAttributes
+from product_attributes import Attributes
 from greedy_constructive_heuristics import GreedyConstructiveHeuristics, objective_value
 
 # Initiate a logger to log necessary information
@@ -15,22 +15,22 @@ logging.basicConfig(filename='log_file.log', level=logging.INFO, format=log_form
 # Define the imported classes
 gch = GreedyConstructiveHeuristics()
 model = MathModel()
-att = ProductAttributes()
+att = Attributes()
 
 # Choose any starting feasible solution x
 # In this case, I use the feasible solution from the first solution method
 initial_solution = gch.construct_decision_variable()
 
-# sorted_prod = att.get_sorted_products
 
 class DiscreteImprovingSearch:
 
     # Set the initial objective value as the reference for improvement
-    # If the penalty of the current algorithm becomes smaller than the initial total penalty, the model has improved!
     total_penalty = objective_value()
-    objective_value_list = []
+    
+    def get_sorted_products(self, sorted_products):
+    # Assign the derived sorted products to the class  
+        self.sorted_products = sorted_products
 
-    # Functions for finding first improvement in the Discrete Improving Search algorithm
 
     def best_improvement(self):
         # Find the local optima based on the Best Improvement approach
@@ -39,12 +39,24 @@ class DiscreteImprovingSearch:
         # Make a copy of the initial solution to avoid modifying it directly
         improving_solution = initial_solution.copy()
         best_solution = initial_solution.copy()
-        
+
+        task_list = att.sorted_tasks(improving_solution)
+
         # Initiate an objective value list to keep track of the obj. value improvement (for plotting)
         objective_value_list = [self.total_penalty]
+        i = 0
+        
+        for line, products in task_list:
+            if i < 1:
+                # Derive products from the task list to simplify the iteration process
+                self.sorted_products = sorted(products, key=lambda product_index: (model.deadlines[product_index], -model.penalty_costs[product_index]))
+                self.get_sorted_products(self.sorted_products)
+                i += 1
+            else:
+                break
 
         # Check for all neighbouring solutions and selects the best one
-        for prod_index in range(model.num_prod - 1):       
+        for prod_index in self.sorted_products:       
             for line_index in range(model.num_prod_lines - 1):
                 # While the new solution is improved,
                 improved = True
@@ -67,13 +79,12 @@ class DiscreteImprovingSearch:
                     chosen_solution_penalty = current_penalty
                 else:
                     pass
-        
-            # If there are no better solution in the neighbourhood,
-            # the last improving solution is the locally optimal move.
+            
+                # If there are no better solution in the neighbourhood,
+                # the last improving solution is the locally optimal move.
             objective_value_list.append(chosen_solution_penalty)
             improving_solution = best_solution.copy()
         
-        # Calculate the algorithm time
         end_algorithm = time.time()
         elapsed_algorithm = end_algorithm - start_algorithm
 
@@ -84,10 +95,9 @@ class DiscreteImprovingSearch:
         plt.plot(objective_value_list, '-o')
         plt.title(f"Discrete Improving Search using Best Improvement on {model.num_prod} products")
         plt.show()
-
         return best_solution
 
-    def scheduling_discrete_improving(self):
+    def schedule_discrete_improving(self):
         # Insert the built schedule in a dataframe and log the scheduling time + assigned line for each product
         x = self.best_improvement()
         
@@ -114,11 +124,11 @@ class DiscreteImprovingSearch:
 # Second solution method execution
 def main():
     dis = DiscreteImprovingSearch()
-    dis.scheduling_discrete_improving().to_excel("d_i_s_schedule.xlsx",index=False)
+    dis.schedule_discrete_improving().to_excel("d_i_s_schedule.xlsx",index=False)
 
     # Log the final objective value of the current solution and print it as an output
     logging.info(f"D.I.S' objective value: {att.total_penalty}")
-    print(f"D.I.S' objective value: {att.total_penalty}")
+    print(f"The total penalty costs when using the best improvement approach in Discrete Improving Search = {att.total_penalty}")
 
     return att.total_penalty
 

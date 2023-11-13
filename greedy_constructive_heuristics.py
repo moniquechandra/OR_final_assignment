@@ -4,7 +4,7 @@ import logging
 import time
 
 from design.mathematical_model import MathModel
-from scheduling import ProductAttributes
+from product_attributes import Attributes
 
 # Initiate a logger to log necessary information
 log_format = "%(asctime)s - %(module)s - %(message)s"
@@ -12,7 +12,7 @@ logging.basicConfig(filename='log_file.log', level=logging.INFO, format=log_form
 
 # Declare classes
 model = MathModel()
-att = ProductAttributes()
+att = Attributes()
 
 class GreedyConstructiveHeuristics:
     
@@ -31,7 +31,7 @@ class GreedyConstructiveHeuristics:
         return self.x
     
     def log_greedy_algorithm(self):
-        # Log the time complexity of the Greedy Constructive Heuristics algorithm and info. regarding solution
+        # Log the necessary information regarding the Greedy Constructive Heuristics algorithm and solution
         start_algorithm = time.time()
         solution = self.construct_decision_variable()
         end_algorithm = time.time()
@@ -47,7 +47,7 @@ class GreedyConstructiveHeuristics:
             line = model.line_headers[l]
             logging.info(f"Product {product} has been assigned to Line {line}")
 
-    def scheduling_constructive_heuristics(self, x):
+    def schedule_constructive_heuristics(self, x):
         # Insert the built schedule in a dataframe and log the information regarding the scheduling time.
 
         start_schedule = time.time()
@@ -64,7 +64,7 @@ class GreedyConstructiveHeuristics:
         return schedule
 
 def objective_value():
-    # Return the objective value for future reuse/reference
+    # Return the objective value for reuse/reference
     return att.total_penalty        
 
 def main():
@@ -73,10 +73,9 @@ def main():
     gch.log_greedy_algorithm()
 
     x = gch.construct_decision_variable()
-    gch.scheduling_constructive_heuristics(x).to_excel("g_c_h_schedule.xlsx",index=False)
+    gch.schedule_constructive_heuristics(x).to_excel("g_c_h_schedule.xlsx",index=False)
     
     logging.info(f"Objective value: {att.total_penalty}")
     print(f"G.C.H's objective value: {att.total_penalty}")
 
 main()
-objective_value()

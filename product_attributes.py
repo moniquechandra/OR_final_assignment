@@ -1,9 +1,13 @@
-from design.mathematical_model import MathModel
+import pandas as pd
 import numpy as np
+import logging
+import time
+
+from design.mathematical_model import MathModel
 
 model = MathModel()
 
-class ProductAttributes:
+class Attributes:
 
     # Define the objective value
     total_penalty = 0
@@ -11,10 +15,6 @@ class ProductAttributes:
     def get_total_penalty(self, total_penalty):
         # Assign the derived total penalty to the class  
         self.total_penalty = total_penalty
-
-    def get_sorted_products(self, sorted_products):
-        # Assign the derived sorted products to the class  
-        self.sorted_products = sorted_products
 
     def sorted_tasks(self, solution):
         # Schedule products based on the EDD method and littlest damage to the objective value.
